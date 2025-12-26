@@ -19,6 +19,4 @@ export async function getUserToken() {
       console.log('Token error: ', error);
       return null;
     }
-
-
 }

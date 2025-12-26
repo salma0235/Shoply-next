@@ -22,7 +22,7 @@ export const authOptions: NextAuthOptions = {
 
         try {
           const res = await fetch(
-            `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/v1/auth/signin`,
+            "https://ecommerce.routemisr.com/api/v1/auth/signin",
             {
               method: "post",
               headers: {

@@ -40,7 +40,7 @@ export default function ResetPassword() {
 
     try {
       const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/v1/auth/resetPassword`,
+        "https://ecommerce.routemisr.com/api/v1/auth/resetPassword",
         {
           method: "PUT",
           body: JSON.stringify(values),

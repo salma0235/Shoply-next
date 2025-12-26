@@ -28,7 +28,7 @@ const swiperOptions = {
     clickable: true,
     bulletClass: "swiper-pagination-bullet !size-4 border-2",
     bulletActiveClass:
-      "swiper-pagination-bullet-active !bg-red-500 border-white",
+      "swiper-pagination-bullet-active !bg-green-500 border-white",
   },
   // className: "mySwiper",
 

@@ -10,7 +10,7 @@ const swiperOptions = {
     clickable: true,
     bulletClass: "swiper-pagination-bullet !size-4 border-2",
     bulletActiveClass:
-      "swiper-pagination-bullet-active !bg-red-500 border-white",
+      "swiper-pagination-bullet-active !bg-green-500 border-white",
   },
 
   modules: [Pagination],
@@ -31,8 +31,6 @@ const swiperOptions = {
       spaceBetween: 40,
     },
   },
-  // onSlideChange: () => console.log("slide change"),
-  // onSwiper: (swiper) => console.log(swiper),
 };
 
 export default function CategoriesSlider({

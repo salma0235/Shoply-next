@@ -35,11 +35,11 @@ export default function RootLayout({
 
           <main className="min-h-[85vh]">{children}</main>
 
-          <Toaster />
 
           <Footer />
         </Providers>
 
+          <Toaster />
 
       </body>
     </html>

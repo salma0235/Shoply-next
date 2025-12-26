@@ -11,7 +11,6 @@ export default async function CategoriesSection() {
    
 
     const {data: categories} : {data: ICategory[]} = await getCategories();
-    // console.log('All categories', categories);
 
 
 
